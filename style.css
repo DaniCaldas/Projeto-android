@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('IDroid.ttf')
+    format('opentype');
+}
+img{
+    width: 100%;
+}
+.cabeça{
+    background-image: linear-gradient(to bottom,#35BF73,#36BF73,#2A9559,#227A49,#1A5C38);
+    height: 250px;
+    width: auto;
+    margin: auto;
+}
+
+.titulo{
+   
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    
+}
+
+body{
+    background-color: #84E1AD;
+    text-align: center;
+}
+
+a.externo::after{
+    content:'\1F517';
+}
+
+div{
+    min-width: 320px;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    margin: 0 auto;
+}
+
+div > p {
+    text-indent: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold ;
+    color: #1f1e1e;
+}
+#s1{
+    font-family: 'idroid';
+    color: #1d643d;
+}
+
+.sub{
+    font-family: 'idroid';
+    color: #185332;
+    background-image: linear-gradient(to right,#62c08c,#5bad80,white);
+    text-align:left;
+    margin-left: 10px;
+    width: 500px;
+}
+a{
+    color:#1a792f ;
+    text-decoration: none;
+    background-color: #35be53;
+}
+a:visited{
+    color: #141850;
+    font-weight: bolder;
+}
+
+article{
+    background-color: #60b973;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 10px 10px 10px 10px;
+    width: 700px;
+    margin-left: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    
+}
+h4{
+    color: white;
+    background-color:#ccd3ce ;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px;
+}
+footer{
+    color: white;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #023602;
+    padding: 5px;
+}
+
+/*Config das listas*/
+article{
+    box-shadow: 3px 3px 8px black;
+}
+
+article ul{
+list-style-type: '\2714\00A0\00A0';/*o \00A0 serve para dar o espaço entre os símbolos e as colunas*/
+}
+
+.left{
+    float: right;
+    
+}
+.right{
+  text-align: left;
+}
+
+#final{
+    margin-top: 50px;
+}
+
+.p2{
+    text-decoration: none;
+    margin-left: 10px;
+    display: inline;
+    transition-duration: 1s;
+}
+
+.p2:hover{
+    background-color:#1a792f ;
+    width: 200px;
+    padding: 10px;
+    transition: all .1s ease-out;
+    border-radius: 6px;
+    color:gray;
+}
+
+main > section{
+  display: flex; 
+  min-width: 400;
+}
+
+iframe{
+    max-width: 450px;
+}
